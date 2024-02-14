@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-image: url('https://wallpaper.dog/large/20534250.jpg');
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.5s;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.image-container {
+    width: 40%;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.text-container {
+    width: 50%;
+    text-align: center;
+    background-color: rgba(239, 176, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+button {
+    margin-top: 20px;
+    font-size: 1.5em;
+    transition: background-color 0.3s;
+    border-radius: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.tak, .nie {
+    display: inline-block;
+}
+
+.tak:hover {
+    background-color: green;
+}
+
+.nie:hover {
+    background-color: red;
+}
+
+#invitation {
+    width: 50%;
+    text-align: center;
+    background-color: rgba(239, 176, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    display: column;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
